@@ -12,9 +12,9 @@
   margin: 0 auto;
   padding: 0;
 
-  /* debug */
+  /* debug 
   border: 1px dashed black;
-  background-color: aquamarine;
+  background-color: aquamarine;*/
 }
 
 body {
@@ -28,7 +28,7 @@ h1 {
   padding: 15px 0;
 }
 
-p {
+.intro {
   text-align: center;
   padding: 30px 0;
 }
@@ -41,18 +41,34 @@ p {
   float: left;
   width: calc(100% / 3);
   padding: 1rem;
-  /* debug */
-  border: 1px dashed red;
+  /* debug 
+  border: 1px dashed red;*/
 }
 
 .card {
   height: 100px;
-  /* debug */
-  background-color: beige;
+  background-color: black;
+  color: white;
+}
+
+.card img {
+  float: left;
+  height: 100%;
+  margin-right: 15px;
 }
 
 .container::after {
   content: "";
   display: block;
   clear: both;
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+.mail {
+  color: #2bbaf2;
+  text-decoration: none;
 }
